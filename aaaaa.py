@@ -61,7 +61,7 @@ while not end_game:
             screen.blit(img_bg, (pos_x, pos_y), (32 * dx, 32* dy, 32,32))
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode(window_size)
-img_char = pygame.image.load('animation.png')
+#img_char = pygame.image.load('animation.png')
 
 frame = 0  # フレーム
 x = 0  # 表示位置X
